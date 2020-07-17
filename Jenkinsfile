@@ -1,9 +1,10 @@
 pipeline {
-    agent { any { image 'node:6.3' } }
+    agent { any { image 'node:14.5.0' } }
     stages {
         stage('build') {
             steps {
-                sh 'npm --version npm run build'
+                sh 'npm install',
+                sh 'npm run build'
             }
         }
     }
