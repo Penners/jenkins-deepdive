@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "tests": "./node_modules/.bin/mocha tests/testGreeting.js && ./node_modules/.bin/mocha tests/testMath.js"
+    "tests": "./node_modules/.bin/mocha tests/testGreeting.js"
   },
   "dependencies": {
     "next": "9.4.4",
